@@ -1,0 +1,272 @@
+* {
+    font-family: Arial;
+}
+
+body {
+    margin: 0;
+}
+
+/* Começo do cabeçalho */
+
+.container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    height: 125px;
+}
+
+.container .logo img {
+    width: 316px;
+    height: 215px;
+    display: flex;
+    margin-left: -105px;
+    margin-top: 20px;
+    align-items: center
+}
+
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.header ul {
+    width: 600px;
+}
+
+.header ul #home {
+    font-weight: 700;
+    color: #320D57;
+    text-align: center;
+}
+
+
+.header ul #empresa {
+    color: #320D57;
+
+}
+
+.header ul #login {
+    color: #320D57;
+}
+
+.header ul button {
+    /* color: white; */
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: #7D1E7C;
+
+}
+
+span.lado3 {
+    display: flex;
+    flex-direction: row;
+}
+
+input#duvida_input {
+    height: 100px;
+}
+
+.header ul button #button {
+    color: white;
+}
+
+ul {
+    color: #320D57;
+    padding: 20px;
+}
+
+/* .titulo {
+    color: #32b9cd;
+    width: fit-content;
+    font-weight: 500;
+} */
+
+.navBar {
+    width: 350px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #000000;
+}
+
+.navL {
+    color: #000000;
+    text-decoration: none;
+}
+
+button {
+    background-color: #b28fd4;
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    border-style: none;
+
+}
+
+/* Fim do cabeçalho */
+
+/* Começo do Banner */
+
+.banner {
+    height: 500px;
+    min-height: 900px;
+    display: flex;
+    background-color: white;
+}
+
+h1 {
+    /* margin-bottom: 40px;
+    font-size: 40px; */
+    color: #7D1E7C;
+    /* font-weight: 800;
+    width: 300px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-left: 10px; */
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 300px;
+    background: white;
+    margin-top: 100px;
+    text-align: center;
+    justify-content: flex-start;
+    justify-content: flex-start;
+    margin-left: 490px;
+    /* align-self: center; */
+}
+
+.banner .container p span {
+    font-weight: 1000;
+}
+
+input {
+    display: flex;
+    padding: 10px 15px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px 0px #1732612e;
+    border: none;
+    width: 400px;
+    margin: 3%;
+}
+
+.lado {
+    display: flex;
+    text-align: start;
+    align-self: baseline;
+}
+
+.banner .container {
+    font-size: 36px;
+    justify-content: start;
+}
+
+.containeR .formulario {
+    display: flex;
+    flex-direction: column;
+    height: 20px;
+}
+
+.banner .container p {
+    width: 30%;
+}
+
+.roxo_claro {
+    color: #c2a2e3;
+    text-decoration: none;
+    font-weight: 50;
+}
+
+
+/* Fim do banner */
+
+/* começo do footer */
+
+.containerFooter {
+    width: 316px;
+    height: 215px;
+    align-items: center;
+    margin-right: 10px;
+}
+
+
+
+footer {
+    display: flex;
+    height: 200px;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    background-color: #f2f2f2;
+    padding: 20px;
+    align-items: center;
+}
+
+.imgfooter {
+    width: 250px;
+    height: 240px;
+    display: flex;
+    align-items: center;
+}
+
+h3{
+    display: flex;
+    font-size: 18px;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    color: #7D1E7C;
+    text-align: center;
+    flex-direction: column;
+}
+
+footer-column2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.social-media-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.social-media-icons img {
+    width: 30px;
+    /* height: 120px; */
+    /* display: flex; */
+    display: inline-block;
+    margin: 0 10px;
+    /* margin-right: 10px; */
+    align-items: center;
+    justify-content: center;
+    float: left;
+    font-size: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.fa {
+    font-size: 20px;
+    color: #555;
+}
